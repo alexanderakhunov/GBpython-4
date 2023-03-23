@@ -3,12 +3,12 @@
 Пользователь вводит 2 числа. n - кол-во элементов первого множества. m - кол-во элементов второго множества. Затем пользователь вводит сами элементы множеств.
 """
 import random
-list1=[0]*7
-list2=[0]*7
+list1=[0]*50
+list2=[0]*50
 
 def pool_list(list):
     for i in range(len(list)):
-        list[i]=random.randint(0,10)
+        list[i]=random.randint(0,25)
     return list
 
 print(pool_list(list1))
